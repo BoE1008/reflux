@@ -1,5 +1,9 @@
 const webpack = require('webpack');
 
 module.exports = {
-    entry: 
+    entry: './index.js',
+    output: {
+        path: './public',
+        filename: 'app.js'
+    }
 }
