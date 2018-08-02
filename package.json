@@ -1,0 +1,32 @@
+{
+  "name": "refluxdev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "reflux": "^6.4.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^4.16.3",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoE1008/refluxDev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BoE1008/refluxDev/issues"
+  },
+  "homepage": "https://github.com/BoE1008/refluxDev#readme"
+}
