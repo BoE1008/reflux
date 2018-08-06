@@ -12,7 +12,8 @@ module.exports = {
         contentBase: path.join(__dirname,'public'),
         port: 8000,
         historyApiFallback: true,
-        hot: true
+        hot: true,
+        compress: true
     },
     module: {
         rules: [
@@ -20,13 +21,13 @@ module.exports = {
                 test: /\.js$|\.jsx$/,
                 use: {
                     loader: 'babel-loader',
-                    query: {
+                    options: {
                         presets: ['es2015','react','stage-0']
                     }
                 },
                 exclude: /node_modules/
             },{
-                test: /.css$/,
+                test: /\.css$/,
                 loader: ['style-loader','css-loader']
             }
         ]
